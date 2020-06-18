@@ -6,7 +6,7 @@
 	box-sizing: border-box;
 }
 body{
-	background: white;
+	background-color: green;
 	font-family: 'Sriracha', cursive;
 }	
 .wrapper{
@@ -20,37 +20,40 @@ body{
 }
 
 .menu{
-	display: flex;
+	display: flex;	
 	width: auto;
 	justify-content: center;
 }
 
 .menu .menu_name{
 	background: grey;
-	border: purple solid 3px;
+	border-style: solid;
+	border-width: 5px;
+	border-color: black;
 	margin: 5px;
-	margin-bottom: 50px;
+	margin-bottom: 10px;
 	width: 300px;
 	padding: 20px;
 	line-height: 20px;
-	border: 1px;
+	
 
 }
 
 .menu .menu_name h3{
 	color: black;
+	width: 100px;
 	font-size: 20px;
 	margin: 1px;
 	position: relative;
-	right: 10px;
+	top: -10px;
+	right: -130px;
 	border: black solid 2px;
-	float: right;
-
- }
+	
+}	
 
  #h1{
  	background-color: red;
- 	position: top-right;
+
  }
 
  #h2{
